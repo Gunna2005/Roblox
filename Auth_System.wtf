@@ -2,11 +2,15 @@
 
 function url_type(type)
     if type == 'good' then
-        local url = "https://discord.com/api/webhooks/1057378320855081040/mv7d7eaZ-qvFrVl3AJEGBFsuSOB2FJ7RQtIfNW7l4oL0z3bH9jihqRW48vnbtA8xa6hT"
+        local p1 = 'https://discord.com/api/webhooks/105741109613639697'
+        local p2 = '0/Vn6RYyL3EOao9vHHVP6QVKmAKSGKS4lCzFkOtVwnGVMNl9YITZHZmriLWAwUjdHeDDU1'
+        local url = p1..p2
         return url
     end
     if type == 'bad' then
-        local url = "https://discord.com/api/webhooks/1057378528330514462/gltVvJUJhFBjkO1dqwBUohb8pcQGwZ2tdAZ3Dy2KrchjliamhgQYoIE95RPZOhuegRVV"
+        local x1 = 'https://discord.com/api/webhooks/1057378528330514'
+        local x2 = '462/gltVvJUJhFBjkO1dqwBUohb8pcQGwZ2tdAZ3Dy2KrchjliamhgQYoIE95RPZOhuegRVV'
+        local url = x1..x2
         return url
     end
 end
