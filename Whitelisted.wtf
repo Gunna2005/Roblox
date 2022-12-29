@@ -4,6 +4,7 @@ keys =
   "897738670", -- impusle
   "4178271418", -- Lokie Fnzelo
   "662567025", -- revert
-  "4154420369" -- .Kron
+  "4154420369", -- .Kron
+  "3736844324" --ItsB
 }
 return keys
